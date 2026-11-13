@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Cách chọn thức ăn phù hợp cho chó",
+    "cat": "Dinh dưỡng",
+    "date": "10/10/2026",
+    "author": "Bs. Lan",
+    "icon": "🐶",
+    "desc": "Chọn thức ăn theo độ tuổi, cân nặng và thể trạng của chó.",
+    "content": [
+      "Chó con cần nhiều đạm và canxi hơn chó trưởng thành.",
+      "Nên đọc kỹ bảng thành phần và đổi thức ăn từ từ trong 7 ngày."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mèo nên ăn pate hay hạt khô?",
+    "cat": "Dinh dưỡng",
+    "date": "05/10/2026",
+    "author": "Bs. Minh",
+    "icon": "🐱",
+    "desc": "So sánh ưu nhược điểm của pate và hạt khô.",
+    "content": [
+      "Pate nhiều nước, tốt cho đường tiết niệu.",
+      "Hạt khô tiện lợi, bảo quản lâu. Có thể kết hợp cả hai."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "5 mẹo giữ lông chó mèo mượt mà",
+    "cat": "Chăm sóc",
+    "date": "01/10/2026",
+    "author": "Hà Anh",
+    "icon": "✨",
+    "desc": "Chải lông, tắm đúng cách và bổ sung dinh dưỡng.",
+    "content": [
+      "Chải lông 2-3 lần mỗi tuần.",
+      "Bổ sung omega-3 giúp lông chắc khỏe."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lượng thức ăn mỗi ngày cho chó con",
+    "cat": "Dinh dưỡng",
+    "date": "28/09/2026",
+    "author": "Bs. Lan",
+    "icon": "🍽️",
+    "desc": "Chia nhỏ bữa ăn theo tháng tuổi.",
+    "content": [
+      "Chó con nên ăn 3-4 bữa nhỏ mỗi ngày.",
+      "Theo dõi cân nặng hằng tuần để điều chỉnh."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Vệ sinh khu vực ăn uống cho thú cưng",
+    "cat": "Chăm sóc",
+    "date": "20/09/2026",
+    "author": "Hà Anh",
+    "icon": "🧼",
+    "desc": "Giữ bát ăn sạch giúp thú cưng tránh bệnh đường ruột.",
+    "content": [
+      "Rửa bát ăn mỗi ngày bằng nước ấm.",
+      "Thay nước sạch ít nhất 2 lần mỗi ngày."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Catnip là gì? Có an toàn cho mèo?",
+    "cat": "Chăm sóc",
+    "date": "15/09/2026",
+    "author": "Bs. Minh",
+    "icon": "🌿",
+    "desc": "Tìm hiểu tác dụng và cách dùng catnip.",
+    "content": [
+      "Catnip giúp mèo thư giãn và vui chơi.",
+      "Chỉ nên dùng một lượng nhỏ mỗi lần."
+    ]
+  }
+]

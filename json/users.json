@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ngô Đình Khoa",
+    "login": "khoa@gmail.com",
+    "phone": "0912345678",
+    "address": "TP. Ho Chi Minh"
+  },
+  {
+    "name": "Phạm Lê Anh Thư",
+    "login": "thu@gmail.com",
+    "phone": "0912345662",
+    "address": "TP. Ho Chi Minh"
+  },
+  {
+    "name": "admin",
+    "login": "admin@gmail.com",
+    "phone": "",
+    "address": ""
+  }
+]

@@ -1,0 +1,19 @@
+:root {
+  --bs-body-bg: #fbf8f1;
+  --bs-warning-rgb: 232, 161, 58;
+}
+
+.navbar-nav .nav-link.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+a.card:hover {
+  box-shadow: var(--bs-box-shadow);
+}
+
+.auth-form.was-validated .form-control:invalid ~ .invalid-feedback {
+  display: none;
+}
+.auth-form.was-validated .form-control:invalid + .invalid-feedback {
+  display: block;
+}

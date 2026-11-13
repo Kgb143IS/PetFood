@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Nhom_Khoa_Thu_DHHTTT20A_KSTN"
+      content="Web introducing and selling dog and cat online"
+    />
+    <title>PetFood - Hỗ trợ</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header id="app-header">
+        <div class="bg-white border-bottom shadow-sm sticky-top">
+          <div class="container-fluid px-4">
+            <div
+              class="d-flex align-items-center justify-content-center gap-3 flex-nowrap py-3"
+            >
+              <a
+                href="index.html"
+                class="text-decoration-none text-success fw-bold fs-3 flex-shrink-0"
+              >
+                <span>🐾</span> PetFood
+              </a>
+
+              <form id="bieuMauTimKiem" class="input-group flex-grow-1">
+                <input
+                  id="oTimKiem"
+                  class="form-control"
+                  placeholder="Tìm thức ăn cho chó, mèo..."
+                />
+                <button class="btn btn-success" type="submit">Tìm kiếm</button>
+              </form>
+
+              <a
+                id="nutTaiKhoan"
+                href="tai-khoan.html"
+                class="btn btn-light flex-shrink-0"
+              >
+                <span id="tenTaiKhoan">👤 Tài khoản</span>
+              </a>
+
+              <a
+                class="btn btn-light position-relative flex-shrink-0"
+                href="yeu-thich.html"
+              >
+                ❤️<span class="d-none d-lg-inline"> Yêu thích</span>
+                <span id="soLuongYeuThich" class="badge bg-danger ms-1">0</span>
+              </a>
+
+              <a
+                class="btn btn-light position-relative flex-shrink-0"
+                href="gio-hang.html"
+              >
+                🛒<span class="d-none d-lg-inline"> Giỏ hàng</span>
+                <span id="soLuongGioHang" class="badge bg-danger ms-1">0</span>
+              </a>
+            </div>
+          </div>
+
+          <nav
+            class="navbar navbar-expand bg-success py-0"
+            data-bs-theme="dark"
+          >
+            <div
+              class="container main-nav navbar-nav justify-content-start flex-wrap"
+            >
+              <a
+                class="nav-link text-white fw-semibold px-2 px-lg-3 py-2"
+                href="index.html"
+                >Trang chủ</a
+              >
+              <a
+                class="nav-link text-white fw-semibold px-2 px-lg-3 py-2"
+                href="san-pham.html?type=dog"
+                >Thức ăn cho chó</a
+              >
+              <a
+                class="nav-link text-white fw-semibold px-2 px-lg-3 py-2"
+                href="san-pham.html?type=cat"
+                >Thức ăn cho mèo</a
+              >
+              <a
+                class="nav-link text-white fw-semibold px-2 px-lg-3 py-2"
+                href="bai-viet.html"
+                >Kiến thức thú cưng</a
+              >
+              <a
+                class="nav-link text-white fw-semibold px-2 px-lg-3 py-2"
+                href="ho-tro.html"
+                >Hỗ trợ</a
+              >
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="page-about">
+          <div class="container py-5">
+            <h2
+              class="fs-3 fw-bold border-1 text-success border-bottom border-success ps-1 pb-3 mb-4"
+            >
+              Giới thiệu về chúng tôi
+            </h2>
+            <div class="row g-4 mb-5">
+              <div class="col-lg-8">
+                <p class="lh-lg mb-0" style="text-align: justify">
+                  PetFood là website giới thiệu và bán thức ăn cho chó mèo trực
+                  tuyến, được xây dựng nhằm mang đến trải nghiệm mua sắm tiện
+                  lợi và thân thiện cho những người nuôi thú cưng. Khách hàng có
+                  thể dễ dàng tìm kiếm, xem thông tin chi tiết, so sánh giá và
+                  lựa chọn sản phẩm phù hợp với từng giống, độ tuổi và nhu cầu
+                  dinh dưỡng của thú cưng. Website hỗ trợ quản lý giỏ hàng, danh
+                  sách yêu thích, đặt hàng và cung cấp đầy đủ thông tin về thanh
+                  toán, giao hàng, đồng thời có chuyên mục kiến thức giúp chăm
+                  sóc thú cưng tốt hơn.
+                </p>
+              </div>
+              <div class="col-lg-4 align-content-center">
+                <div class="row g-2 text-center">
+                  <div class="col-4">
+                    <div class="border rounded-3 py-3 h-100">
+                      <div class="fs-3">🐶</div>
+                      <small class="fw-semibold">Thức ăn cho chó</small>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="border rounded-3 py-3 h-100">
+                      <div class="fs-3">🐱</div>
+                      <small class="fw-semibold">Thức ăn cho mèo</small>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="border rounded-3 py-3 h-100">
+                      <div class="fs-3">🚚</div>
+                      <small class="fw-semibold">Giao hàng nhanh</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thành viên -->
+            <h2
+              class="fs-3 fw-bold text-success border-bottom border-success pb-2 mb-3"
+            >
+              Thành viên sáng lập
+            </h2>
+            <div class="row g-3 mb-2 pb-0" style="height: 650px">
+              <div class="col-md-6" style="height: 800px">
+                <div class="card border border-success" style="height: 600px">
+                  <img
+                    class="card-img h-75"
+                    style="object-fit: cover"
+                    src="../images/DinhKhoa_Avt.png"
+                    alt="Ảnh Khoa"
+                  />
+                  <div class="card-body d-block align-content-center gap-2">
+                    <h4 class="card-title fs-2">Ngô Đình Khoa</h4>
+                    <p class="card-text">MSSV: 24666511</p>
+                    <p class="card-text">Class: DHHTTT20A_KSTN</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" style="height: 650px">
+                <div class="card border border-success" style="height: 600px">
+                  <img
+                    class="card-img h-75"
+                    style="object-fit: cover"
+                    src="../images/Thu_avt.jpg"
+                    alt="Ảnh Thư"
+                  />
+                  <div class="card-body align-content-center gap-2">
+                    <h4 class="card-title fs-2">Phạm Lê Anh Thư</h4>
+                    <p class="card-text">MSSV: 24676891</p>
+                    <p class="card-text">Class: DHHTTT20A_KSTN</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3
+              class="fs-4 fw-bold text-success border-bottom border-success pb-2 mb-3"
+            >
+              Sitemap
+            </h3>
+            <div
+              id="sitemap"
+              class="border border-2 border-success-subtle rounded-3 p-3 text-center bg-light"
+            >
+              <img
+                src="../images/siteMap_Web.png"
+                style="width: 100%; height: 600px"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <section id="page-support">
+          <div class="container py-5">
+            <h2
+              class="fs-3 fw-bold border-start border-4 border-success ps-3 mb-4"
+            >
+              Trung tâm hỗ trợ
+            </h2>
+            <div class="row g-4">
+              <div class="col-lg-6">
+                <h4>Câu hỏi thường gặp</h4>
+                <input
+                  id="timCauHoi"
+                  class="form-control mb-3"
+                  placeholder="Tìm câu hỏi..."
+                />
+                <div id="dsCauHoi" class="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#cauHoi1"
+                      >
+                        Làm thế nào để đặt hàng?
+                      </button>
+                    </h2>
+                    <div id="cauHoi1" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                        Chọn sản phẩm, thêm vào giỏ hàng và tiến hành thanh
+                        toán.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#cauHoi2"
+                      >
+                        Tôi có thể hủy đơn hàng không?
+                      </button>
+                    </h2>
+                    <div id="cauHoi2" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        Bạn có thể hủy đơn khi đơn hàng đang chờ xác nhận.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#cauHoi3"
+                      >
+                        Phí giao hàng được tính thế nào?
+                      </button>
+                    </h2>
+                    <div id="cauHoi3" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        Đơn từ 500.000đ được miễn phí vận chuyển trong bản demo.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <h4>Gửi yêu cầu hỗ trợ</h4>
+                <form id="bieuMauHoTro" class="needs-validation" novalidate>
+                  <label class="form-label">Họ tên</label
+                  ><input class="form-control mb-3" required /><label
+                    class="form-label"
+                    >Email</label
+                  ><input
+                    type="email"
+                    class="form-control mb-3"
+                    required
+                  /><label class="form-label">Nội dung</label
+                  ><textarea
+                    class="form-control mb-3"
+                    rows="5"
+                    required
+                  ></textarea
+                  ><button class="btn btn-success" type="submit">
+                    Gửi yêu cầu
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="app-footer">
+        <div class="bg-dark text-light mt-5 py-5">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <h4>🐾 PetFood</h4>
+                <p>Thức ăn và sản phẩm chăm sóc chó mèo.</p>
+              </div>
+              <div class="col-md-4">
+                <h5>Liên kết</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      href="index.html"
+                      >Trang chủ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      href="san-pham.html?type=dog"
+                      >Thức ăn cho chó</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      href="san-pham.html?type=cat"
+                      >Thức ăn cho mèo</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                      href="bai-viet.html"
+                      >Bài viết</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h5>Hỗ trợ khách hàng</h5>
+                <p>Email: support@petfood.vn</p>
+                <a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="ho-tro.html"
+                  >Liên hệ hỗ trợ</a
+                >
+              </div>
+            </div>
+            <hr class="border-secondary" />
+            <small>© 2026 PetFood. Demo website.</small>
+          </div>
+        </div>
+      </footer>
+
+      <div id="app-modals">
+        <div class="modal fade" id="modalDangNhap" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Tài khoản PetFood</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body" id="thanModalDangNhap"></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalXemNhanh" tabindex="-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Xem nhanh sản phẩm</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body" id="thanXemNhanh"></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalXoa" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Xác nhận xóa</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body" id="noiDungXoa"></div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                  Hủy</button
+                ><button id="nutXacNhanXoa" class="btn btn-danger">Xóa</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalYeuThich" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Đã thêm yêu thích</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body" id="anhYeuThich"></div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                  Tiếp tục</button
+                ><button id="nutXemYeuThich" class="btn btn-success">
+                  Xem danh sách yêu thích
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalHoSo" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Chỉnh sửa hồ sơ</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <form id="bieuMauHoSo" class="needs-validation" novalidate>
+                  <label class="form-label">Họ tên</label
+                  ><input
+                    id="suaHoTen"
+                    class="form-control mb-2"
+                    required
+                  /><label class="form-label">Số điện thoại</label
+                  ><input
+                    id="suaSdt"
+                    class="form-control mb-2"
+                    pattern="0[0-9]{9}"
+                  /><label class="form-label">Địa chỉ</label
+                  ><textarea id="suaDiaChi" class="form-control mb-3"></textarea
+                  ><button class="btn btn-success" type="submit">
+                    Lưu thay đổi
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalHuyDon" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Hủy đơn hàng</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                Bạn có chắc muốn hủy đơn <strong id="maDonHuy"></strong>?
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                  Không</button
+                ><button id="nutXacNhanHuy" class="btn btn-danger">
+                  Xác nhận hủy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div
+          id="thongBao"
+          class="toast align-items-center text-bg-success border-0"
+          role="alert"
+        >
+          <div class="d-flex">
+            <div class="toast-body" id="thanThongBao"></div>
+            <button
+              class="btn-close btn-close-white me-2 m-auto"
+              data-bs-dismiss="toast"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/support.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+
+[
+  {
+    "name": "Royal Canin",
+    "logo": "../images/Royal-Canin-Logo.jpg"
+  },
+  {
+    "name": "Pedigree",
+    "logo": "../images/pedigree-logo.png"
+  },
+  {
+    "name": "Whiskas",
+    "logo": "../images/Whiskas-Logo-2003.png"
+  },
+  {
+    "name": "SmartHeart",
+    "logo": "../images/smartheart-logo.png"
+  },
+  {
+    "name": "Me-O",
+    "logo": "../images/me-o-logo.webp"
+  },
+  {
+    "name": "Ganador",
+    "logo": "../images/ganador-logo.webp"
+  }
+]
